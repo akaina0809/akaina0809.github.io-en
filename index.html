@@ -10,10 +10,10 @@
 
   <script>
     // Google Translate APIのキー（自分のAPIキーで置き換えてください）
-    const apiKey = 'YOUR_GOOGLE_TRANSLATE_API_KEY';
+    const apiKey = 'AIzaSyBUdsPm8Yj1Nj-CBbphWPEWRji8pvuhVbY';
 
     // 翻訳先の言語コード（日本語は'ja'）
-    const targetLanguage = 'ja';
+    const targetLanguage = 'en';
 
     // 翻訳するテキスト（実際の内容はindex2.htmlから取得するようにしてください）
     const textToTranslate = `
@@ -32,7 +32,7 @@
           },
           body: JSON.stringify({
             q: text,
-            source: 'en', // 元の言語は英語と仮定
+            source: 'ja', // 元の言語は英語と仮定
             target: targetLang // 翻訳先の言語コード（'ja'は日本語）
           })
         });
