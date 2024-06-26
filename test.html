@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScriptの例</title>
+  <script>
+    // JavaScriptの例
+    function greet(name) {
+      return 'こんにちは、' + name + 'さん！';
+    }
+
+    let username = '太郎';
+    let greeting = greet(username);
+    console.log(greeting);
+  </script>
+</head>
+<body>
+  <h1>JavaScriptの例</h1>
+  <p id="message">JavaScriptを学ぶ</p>
+
+  <button onclick="changeMessage()">メッセージを変更</button>
+
+  <script>
+    function changeMessage() {
+      document.getElementById('message').textContent = '新しいメッセージです！';
+    }
+  </script>
+</body>
+</html>
