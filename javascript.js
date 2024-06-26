@@ -1,1 +1,37 @@
+    // Google Translate APIのキー（自分のAPIキーで置き換えてください）
+    const apiKey = 'AIzaSyBUdsPm8Yj1Nj-CBbphWPEWRji8pvuhVbY';
 
+    // 翻訳先の言語コード（日本語は'ja'）
+    const targetLanguage = 'en';
+
+    // 翻訳するテキスト（実際の内容はindex2.htmlから取得するようにしてください）
+    const textToTranslate = `<div id="header"><div class="inner"><h1>赫稲サイト</h1><div class="logo"><a href="index.html">このサイトでは色々配布したりします。<br><span>2次配布などを禁止しますよ</span></a></div><ul id="topnav"><li class="active"><a href="index.html">トップページ<br><span>Top</span></a></li><li><a href="akaina.html">ごあいさつ<br><span>Greeting</span></a></li><li><a href="Download.html">ダウンロード<br><span>Download</span></a></li><li><a href="sns.html">SNS<br><span>SNS</span></a></li><li><a href="osirase.html">お知らせ<br><span>Notice</span></a></li><li><a href="./Link.html">マイクラ系<br><span>Microsoft</span></a></li><li><a href="./Link.html">リンク集<br><span>Link Collection</span></a></li><li><a href="Sanka.html">参加者<br><span>Participant</span></a></li><li><a href="subpage.html">利用規約<br><span>Terms of service</span></a></li></ul></div></div><div id="wrapper"><!-- メイン画像 --><div id="mainBanner" class="hakurei"><img src="images/hakurei.png" alt=""><div class="slogan"><h2>赫稲サイト</h2><h3>赫稲サイトです。こちらでは色々とできますね。</h3><h3>It is a akaina site. You can do a lot here.</h3></div></div><https://www.youtube.com/@akaina0809><section class="gridWrapper"><article class="grid"><h3>YouTube</h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6VA4LFWn__CPwipsbuJQlUSi3jCtJNY_v0g&usqp=CAU" width="220" height="175" alt=""><p>私のYouTubeです。</p><p>This is my YouTube. </p><p class="readmore"><a href="https://www.youtube.com/@akaina0809">確認する</a></p></article><article class="grid"><h3>discord</h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLek39mENby4ZpnCJX5hotiSU_Ordxa0ex-w&usqp=CAU" width="220" height="175" alt=""><p>私のdiscordです。</p><p>This is my discord.</p><p class="readmore"><a href="https://discord.gg/EhKSAMt8M">参加する。</a></p><p class="readmore"><a href="https://discord.gg/EhKSAMt8M">participate.</a></p></article><article class="grid"><h3>Minecraft</h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGKcopl3aGOVMTtkK0H-MOczYYiwNu8PFLHQ&usqp=CAU" width="220" height="175" alt=""><p>私のやっているゲームのメインですね。Minecraftは楽しいですがJava版と統合版に別れてるのが不便</p><p class="readmore"><a href="https://www.minecraft.net/ja-jp">詳細を確認する</a></p></article><article class="grid"><h3>CapCut</h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCRBso9cT3bXETbiHK309kn_AVDJH_WahqHXjRQk01E38u06yUWFdPQfs&s=10" width="220" height="175" alt=""><p>スマホ版の動画編集アプリです。大体私の動画はこの編集アプリが使われております。</p><p class="readmore"><a href="https://www.capcut.com/ja-jp/">詳細を確認する</a></p></article><article class="grid"><h3>Code Editor - Compiler & IDE</h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWkxpEnD-3sFf9nOM5l6iK6PfeSxxo9_Nmow&usqp=CAU" width="220" height="175" alt=""><p>アドオンの作成など全てこのアプリとファイルマネージャーを使用しております。</p><p class="readmore"><a href="https://play.google.com/store/apps/details?id=com.rhmsoft.code">詳細を確認する:Google Play</a></p><p class="readmore"><a href="https://apps.apple.com/us/app/code-editor-compiler-ide/id1581290510">詳細を確認する:App Store</a></p></article><article class="grid"><h3>MediBang Paint</h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBbJCSIcepeSlE17pOn1NeFyeEUTno5PTMIA&usqp=CAU" width="220" height="175" alt=""><p>イラストや画像編集に使えるアプリです。私のアドオンのTextureは全てこちらで作成しております。</p><p class="readmore"><a href="https://medibangpaint.com/">詳細を確認する</a></p></article></section><section class="content"><h3 class="heading">It's Google Translate.</h3> <article> <img src="https://play-lh.googleusercontent.com/ZrNeuKthBirZN7rrXPN1JmUbaG8ICy3kZSHt-WgSnREsJzo2txzCzjIoChlevMIQEA=w240-h480-rw" width="320" height="240" alt="" class="alignleft frame"> <p> Hello, I'm 赫稲. This site has various reference sites and a template site. Now let me tell you a little bit about me. My name is akaina,and the reading is pretty 😊 Age:I don't really care about gender. One of the reasons I became interested in addons is the Java version of the mod. I'm interested in mods,but I can't make them, so I started making addons. It was surprisingly fun and I decided to be active as an activist. Please know that I'm red. By the way,about this site,cats are the main activity on this site. Until now,I used various sites to make it,but it's easier to put it all together, so I'll start from scratch in 2023. I was making a site. This site has a paid version,but most of it is free.Activities Create and distribute requested items as soon as possible. If there is anything you can do for someone who has joined the activity,ask them to help you. If there is something you want me to teach you,I will do my best to teach you. Money is currently (2023/01/01) an illustrator (a person who writes illustrations). I'm going to go out alone. I want to join the activity, but what should I do? If there is anything you can do, I want you to do it. I will not force you. But please be friendly with the people in the server. Block and kick people who commit abusive language or slander. that's all. Thank you to everyone who watched this far!</p></article></section></div><div id="footer"><fixing><!-- SEKKAKU-COOUNT ここから --><script src="//scnt.sekkaku.net/cnt.cgi?id=S1714239607&amp;mode=all&amp;color=000000&amp;size=14&amp;comma=on&amp;column=0&amp;mouse=to"></script><noscript><a href="https://count.sekkaku.net/" target="_blank"><img src="//scnt.sekkaku.net/cnt.cgi?id=S1714239607&amp;script=no&amp;guid=on" alt="カウンター" border="0" /></a></noscript><!-- SEKKAKU-COOUNT ここまで --></fixing></div></div>`;
+
+    // Google Translate APIを使用してテキストを翻訳する関数
+    async function translateText(text, targetLang) {
+      try {
+        // Google Translate APIにPOSTリクエストを送信
+        let response = await fetch(`https://translation.googleapis.com/language/translate/v2?key=${apiKey}`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            q: text,
+            source: 'ja', // 元の言語は英語と仮定
+            target: targetLang // 翻訳先の言語コード（'ja'は日本語）
+          })
+        });
+
+        // JSONレスポンスをパースする
+        let data = await response.json();
+
+        // ページ上の翻訳されたテキストを更新する
+        document.getElementById('translatedText').innerHTML = data.data.translations[0].translatedText;
+      } catch (error) {
+        console.error('翻訳エラー:', error);
+      }
+    }
+
+    // translateText関数を呼び出して、翻訳するテキストと翻訳先の言語を指定する
+    translateText(textToTranslate, targetLanguage);
